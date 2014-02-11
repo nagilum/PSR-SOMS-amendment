@@ -38,6 +38,23 @@ if ($a == $b &&
 }
 ```
 
+If used for the If-conditions, it MUST also be applied to the Else-conditions,
+as follows.
+
+```php
+if ($a == $b &&
+    $c != $d) {
+  // body
+}
+else if ($e == $f &&
+         $g != $h) {
+  // body
+}
+else {
+
+}
+```
+
 ## 3. Inline SQL Queries
 
 SQL queries can easily become very long and breaking them up on multiple lines

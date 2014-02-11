@@ -38,7 +38,7 @@ if ($a == $b &&
 }
 ```
 
-If used for the If-conditions, it MUST also be applied to the Else-conditions,
+If used for the If-conditions, it MUST also be applied to the If-Else-conditions,
 as follows.
 
 ```php
@@ -51,7 +51,7 @@ else if ($e == $f &&
   // body
 }
 else {
-
+  // body
 }
 ```
 

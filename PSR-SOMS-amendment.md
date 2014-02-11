@@ -80,4 +80,16 @@ ORDER BY
 
 ## 4. Database Tables and Columns
 
-Camel case must be used for naming table names and its columns.
+Camel case MUST be used for naming table names and its columns.
+
+### 4.1 Example
+
+```sql
+CREATE TABLE lists (
+  `id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
+  `userID` INT UNSIGNED NOT NULL,
+  `firstName` VARCHAR(32) NOT NULL,
+  `lastName` VARCHAR(32) NOT NULL,
+  PRIMARY KEY (`id`)
+)
+```
